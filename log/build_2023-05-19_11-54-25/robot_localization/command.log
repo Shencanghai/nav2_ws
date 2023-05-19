@@ -1,0 +1,2 @@
+Invoking command in '/home/lhl/nav2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/robot_localization
+Invoked command in '/home/lhl/nav2_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/robot_localization

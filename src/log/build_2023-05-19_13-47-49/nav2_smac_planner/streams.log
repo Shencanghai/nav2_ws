@@ -1,0 +1,211 @@
+[0.065s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_smac_planner
+[42.235s] -- The C compiler identification is GNU 11.3.0
+[42.235s] -- The CXX compiler identification is GNU 11.3.0
+[42.236s] -- Detecting C compiler ABI info
+[42.236s] -- Detecting C compiler ABI info - done
+[42.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[42.236s] -- Detecting C compile features
+[42.236s] -- Detecting C compile features - done
+[42.236s] -- Detecting CXX compiler ABI info
+[42.236s] -- Detecting CXX compiler ABI info - done
+[42.236s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[42.236s] -- Detecting CXX compile features
+[42.236s] -- Detecting CXX compile features - done
+[42.236s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[42.237s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[42.237s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake)
+[42.237s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[42.237s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[42.237s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[42.237s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[42.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[42.237s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[42.237s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[42.237s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[42.237s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[42.238s] -- Found FastRTPS: /opt/ros/humble/include  
+[42.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[42.238s] -- Looking for pthread.h
+[42.238s] -- Looking for pthread.h - found
+[42.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[42.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[42.238s] -- Found Threads: TRUE  
+[42.238s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[42.238s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[42.238s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[42.238s] -- Found nav2_util: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_util/share/nav2_util/cmake)
+[42.238s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[42.239s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[42.239s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[42.239s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_core/share/nav2_core/cmake)
+[42.239s] -- Found ompl: /opt/ros/humble/include/ompl-1.6;/usr/include;/usr/include/eigen3  
+[42.239s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[42.239s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[42.239s] -- Found OpenMP: TRUE (found version "4.5")  
+[42.239s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[42.239s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[42.239s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[42.239s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[125.377s] -- Added test 'copyright' to check source files copyright and LICENSE
+[125.384s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[125.385s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_smac_planner/include
+[125.385s] -- Configured cppcheck exclude dirs and/or files: 
+[125.391s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[125.391s] -- Configured cpplint exclude dirs and/or files: 
+[125.392s] -- Added test 'flake8' to check Python code syntax and style conventions
+[125.394s] -- Added test 'lint_cmake' to check CMake code style
+[125.395s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[125.405s] -- Added test 'uncrustify' to check C / C++ code style
+[125.405s] -- Configured uncrustify additional arguments: 
+[125.405s] -- Added test 'xmllint' to check XML markup files
+[125.406s] -- Configuring done
+[126.683s] -- Generating done
+[126.694s] -- Build files have been written to: /home/lhl/nav2_ws/src/build/nav2_smac_planner
+[126.729s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_smac_planner
+[126.734s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_smac_planner -- -j8 -l8
+[130.213s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[144.806s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[156.257s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[168.529s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[178.874s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[184.896s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[186.988s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[189.063s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[204.882s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[215.035s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[224.208s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[225.436s] [ 18%] Built target nav2_smac_planner
+[225.468s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[226.942s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[226.993s] [ 22%] Built target gtest_main
+[227.015s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[235.943s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[235.982s] [ 25%] Built target gtest
+[236.006s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[240.030s] [ 28%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[241.061s] [ 30%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[242.160s] [ 32%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[243.246s] [ 33%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[251.979s] [ 35%] [32m[1mLinking CXX executable test_collision_checker[0m
+[253.385s] [ 35%] Built target test_collision_checker
+[256.881s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[262.737s] [ 38%] [32m[1mLinking CXX executable test_a_star[0m
+[263.820s] [ 40%] [32m[1mLinking CXX executable test_nodebasic[0m
+[264.351s] [ 40%] Built target test_a_star
+[264.842s] [ 40%] Built target test_nodebasic
+[265.282s] [ 42%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[266.023s] [ 42%] Built target test_nodehybrid
+[269.758s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[273.874s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[281.367s] [ 47%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[288.734s] [ 49%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[290.749s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[292.764s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[298.310s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[302.626s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[310.905s] [ 57%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[311.540s] [ 57%] Built target nav2_smac_planner_lattice
+[311.573s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[311.573s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[311.574s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[322.523s] [ 64%] [32m[1mLinking CXX executable test_node2d[0m
+[323.330s] [ 64%] Built target test_node2d
+[323.394s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[323.427s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[323.455s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[323.489s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[323.497s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[323.512s] [ 74%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[332.607s] [ 76%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[333.615s] [ 77%] [32m[1mLinking CXX executable test_lattice_node[0m
+[333.933s] [ 77%] Built target test_smac_hybrid
+[334.620s] [ 77%] Built target test_lattice_node
+[338.220s] [ 79%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[338.973s] [ 79%] Built target test_costmap_downsampler
+[342.217s] [ 81%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[342.635s] [ 81%] Built target test_smac_lattice
+[342.752s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[348.136s] [ 88%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[348.136s] [ 88%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[348.136s] [ 88%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[352.481s] [ 91%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[352.481s] [ 91%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[359.348s] [ 93%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[359.706s] [ 93%] Built target nav2_smac_planner_2d
+[359.727s] [ 96%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[359.727s] [ 96%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[368.399s] [ 98%] [32m[1mLinking CXX executable test_smoother[0m
+[368.476s] [100%] [32m[1mLinking CXX executable test_smac_2d[0m
+[368.812s] [100%] Built target test_smoother
+[368.869s] [100%] Built target test_smac_2d
+[368.880s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_smac_planner -- -j8 -l8
+[368.934s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_smac_planner
+[368.941s] -- Install configuration: "Release"
+[368.941s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[368.942s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[368.942s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[368.942s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[368.943s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[368.943s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[368.944s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[368.944s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[368.946s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[368.946s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include/
+[368.946s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner
+[368.946s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[368.946s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[368.947s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[368.948s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[368.949s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[368.950s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[368.951s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[368.952s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[368.957s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_smac_planner

@@ -1,0 +1,9 @@
+[0.034s] Invoking command in '/home/lhl/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_common -- -j8 -l8
+[0.118s] Built target ament_cmake_python_symlink_nav2_common
+[0.379s] running egg_info
+[0.380s] writing nav2_common.egg-info/PKG-INFO
+[0.380s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.380s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.382s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.382s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.409s] Built target ament_cmake_python_build_nav2_common_egg

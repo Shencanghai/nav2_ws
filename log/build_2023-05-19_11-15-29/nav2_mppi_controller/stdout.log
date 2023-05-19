@@ -1,0 +1,120 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found tf2_eigen: 0.25.2 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_mppi_controller/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lhl/nav2_ws/build/nav2_mppi_controller
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  4%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target mppi_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target mppi_critics[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  8%] Built target gtest_main
+[ 26%] Built target mppi_controller
+[35m[1mConsolidate compiler generated dependencies of target optimizer_smoke_test[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_state_transition_test[0m
+[35m[1mConsolidate compiler generated dependencies of target models_test[0m
+[ 47%] Built target mppi_critics
+[ 56%] Built target controller_state_transition_test
+[ 56%] Built target models_test
+[ 60%] Built target optimizer_smoke_test
+[35m[1mConsolidate compiler generated dependencies of target noise_generator_test[0m
+[35m[1mConsolidate compiler generated dependencies of target parameter_handler_test[0m
+[35m[1mConsolidate compiler generated dependencies of target trajectory_visualizer_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target utils_test[0m
+[35m[1mConsolidate compiler generated dependencies of target motion_model_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target path_handler_test[0m
+[35m[1mConsolidate compiler generated dependencies of target optimizer_unit_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target critic_manager_test[0m
+[ 65%] Built target noise_generator_test
+[ 69%] Built target parameter_handler_test
+[ 73%] Built target trajectory_visualizer_tests
+[ 78%] Built target utils_test
+[ 82%] Built target motion_model_tests
+[ 86%] Built target path_handler_test
+[ 91%] Built target critic_manager_test
+[ 95%] Built target optimizer_unit_tests
+[35m[1mConsolidate compiler generated dependencies of target critics_tests[0m
+[100%] Built target critics_tests
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+-- Symlinking: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml

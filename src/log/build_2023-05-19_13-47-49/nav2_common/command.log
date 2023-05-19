@@ -1,0 +1,6 @@
+Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_common
+Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_common
+Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_common -- -j8 -l8
+Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_common -- -j8 -l8
+Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_common
+Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_common

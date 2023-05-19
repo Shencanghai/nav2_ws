@@ -1,0 +1,6 @@
+Invoking command in '/home/lhl/nav2_ws/src/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/sam_bot_description
+Invoked command in '/home/lhl/nav2_ws/src/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/sam_bot_description -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/sam_bot_description
+Invoking command in '/home/lhl/nav2_ws/src/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/sam_bot_description -- -j8 -l8
+Invoked command in '/home/lhl/nav2_ws/src/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/sam_bot_description -- -j8 -l8
+Invoking command in '/home/lhl/nav2_ws/src/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/sam_bot_description
+Invoked command in '/home/lhl/nav2_ws/src/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/sam_bot_description

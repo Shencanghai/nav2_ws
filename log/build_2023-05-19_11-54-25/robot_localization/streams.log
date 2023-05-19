@@ -1,0 +1,55 @@
+[0.011s] Invoking command in '/home/lhl/nav2_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/robot_localization
+[0.060s] -- The C compiler identification is GNU 11.3.0
+[0.108s] -- The CXX compiler identification is GNU 11.3.0
+[0.115s] -- Detecting C compiler ABI info
+[0.171s] -- Detecting C compiler ABI info - done
+[0.177s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.177s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.255s] -- Detecting CXX compile features
+[0.255s] -- Detecting CXX compile features - done
+[0.256s] -- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.
+[0.258s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.403s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.485s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.487s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.528s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.533s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.540s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.553s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.570s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.637s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.639s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.729s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.797s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.809s] -- Looking for pthread.h
+[0.868s] -- Looking for pthread.h - found
+[0.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.932s] -- Found Threads: TRUE  
+[1.093s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[1.138s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.167s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.167s]   By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+[1.167s]   project has asked CMake to find a package configuration file provided by
+[1.167s]   "geographic_msgs", but CMake did not find one.
+[1.167s] 
+[1.167s]   Could not find a package configuration file provided by "geographic_msgs"
+[1.167s]   with any of the following names:
+[1.167s] 
+[1.167s]     geographic_msgsConfig.cmake
+[1.168s]     geographic_msgs-config.cmake
+[1.168s] 
+[1.168s]   Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+[1.168s]   set "geographic_msgs_DIR" to a directory containing one of the above files.
+[1.168s]   If "geographic_msgs" provides a separate development package or SDK, be
+[1.168s]   sure it has been installed.
+[1.168s] 
+[1.168s] [0m
+[1.168s] -- Configuring incomplete, errors occurred!
+[1.168s] See also "/home/lhl/nav2_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".
+[1.175s] Invoked command in '/home/lhl/nav2_ws/build/robot_localization' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/robot_localization
