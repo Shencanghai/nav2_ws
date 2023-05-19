@@ -1,0 +1,56 @@
+[0.140s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav_2d_utils/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:/home/lhl/nav2_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_smoother -- -j8 -l8
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target smoother_server_core[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target savitzky_golay_smoother[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target simple_smoother[0m
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.251s] [ 11%] Built target smoother_server_core
+[0.297s] [ 22%] Built target gtest_main
+[0.307s] [ 33%] Built target savitzky_golay_smoother
+[0.312s] [ 44%] Built target simple_smoother
+[0.314s] [ 55%] Built target gtest
+[0.352s] [35m[1mConsolidate compiler generated dependencies of target smoother_server[0m
+[0.368s] [35m[1mConsolidate compiler generated dependencies of target test_smoother_server[0m
+[0.381s] [35m[1mConsolidate compiler generated dependencies of target test_simple_smoother[0m
+[0.397s] [35m[1mConsolidate compiler generated dependencies of target test_savitzky_golay_smoother[0m
+[0.415s] [ 66%] Built target test_smoother_server
+[0.436s] [ 77%] Built target smoother_server
+[0.444s] [ 88%] Built target test_savitzky_golay_smoother
+[0.466s] [100%] Built target test_simple_smoother
+[0.533s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav_2d_utils/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:/home/lhl/nav2_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_smoother -- -j8 -l8
+[0.684s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav_2d_utils/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:/home/lhl/nav2_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_smoother
+[0.695s] -- Install configuration: "Release"
+[0.695s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/plugins.xml
+[0.695s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/lib/libsmoother_server_core.so
+[0.696s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/lib/libsimple_smoother.so
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/lib/libsavitzky_golay_smoother.so
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/lib/nav2_smoother/smoother_server
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include/
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include//nav2_smoother
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include//nav2_smoother/savitzky_golay_smoother.hpp
+[0.700s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/include//nav2_smoother/smoother_utils.hpp
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/library_path.sh
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/library_path.dsv
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_smoother
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_smoother
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.sh
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.dsv
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/path.sh
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/environment/path.dsv
+[0.701s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/local_setup.bash
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/local_setup.sh
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/local_setup.zsh
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/local_setup.dsv
+[0.702s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/package.dsv
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/ament_index/resource_index/packages/nav2_smoother
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smoother
+[0.702s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/ament_index/resource_index/rclcpp_components/nav2_smoother
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig.cmake
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig-version.cmake
+[0.703s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_smoother/share/nav2_smoother/package.xml
+[0.757s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav_2d_utils:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav_2d_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav_2d_utils/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:/home/lhl/nav2_ws/src/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_smoother
