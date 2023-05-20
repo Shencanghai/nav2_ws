@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lhl/nav2_ws/build/nav2_simple_commander/build
+creating /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib
+creating /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/example_follow_path.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/robot_navigator.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/costmap_2d.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/line_iterator.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/demo_security.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/example_assisted_teleop.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/example_waypoint_follower.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/example_nav_to_pose.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/example_nav_through_poses.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/demo_recoveries.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/demo_picking.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/demo_inspection.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+copying nav2_simple_commander/__init__.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+running install_scripts
+Installing demo_inspection script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_picking script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_recoveries script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_security script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_assisted_teleop script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_follow_path script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_nav_through_poses script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_nav_to_pose script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_waypoint_follower script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+writing list of installed files to '/home/lhl/nav2_ws/build/nav2_simple_commander/install.log'

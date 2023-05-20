@@ -176,17 +176,17 @@ nav2_common_uninstall/fast:
 .PHONY : nav2_common_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_nav2_common
+# Target rules for targets named ament_cmake_python_copy_nav2_common
 
 # Build rule for target.
-ament_cmake_python_symlink_nav2_common: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_nav2_common
-.PHONY : ament_cmake_python_symlink_nav2_common
+ament_cmake_python_copy_nav2_common: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_nav2_common
+.PHONY : ament_cmake_python_copy_nav2_common
 
 # fast build rule for target.
-ament_cmake_python_symlink_nav2_common/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_nav2_common.dir/build.make CMakeFiles/ament_cmake_python_symlink_nav2_common.dir/build
-.PHONY : ament_cmake_python_symlink_nav2_common/fast
+ament_cmake_python_copy_nav2_common/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_nav2_common.dir/build.make CMakeFiles/ament_cmake_python_copy_nav2_common.dir/build
+.PHONY : ament_cmake_python_copy_nav2_common/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_nav2_common_egg
@@ -213,7 +213,7 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... ament_cmake_python_build_nav2_common_egg"
-	@echo "... ament_cmake_python_symlink_nav2_common"
+	@echo "... ament_cmake_python_copy_nav2_common"
 	@echo "... nav2_common_uninstall"
 	@echo "... uninstall"
 .PHONY : help

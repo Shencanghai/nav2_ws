@@ -221,9 +221,9 @@ CMakeFiles/velocity_smoother.dir/clean:
 # Target rules for target test/CMakeFiles/velocity_smoother_tests.dir
 
 # All Build rule for target.
-test/CMakeFiles/velocity_smoother_tests.dir/all: CMakeFiles/velocity_smoother_core.dir/all
 test/CMakeFiles/velocity_smoother_tests.dir/all: gtest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/velocity_smoother_tests.dir/all: gtest/CMakeFiles/gtest_main.dir/all
+test/CMakeFiles/velocity_smoother_tests.dir/all: CMakeFiles/velocity_smoother_core.dir/all
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/velocity_smoother_tests.dir/build.make test/CMakeFiles/velocity_smoother_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/velocity_smoother_tests.dir/build.make test/CMakeFiles/velocity_smoother_tests.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lhl/nav2_ws/build/nav2_velocity_smoother/CMakeFiles --progress-num=9,10 "Built target velocity_smoother_tests"

@@ -1,3 +1,4 @@
 /home/lhl/nav2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+/home/lhl/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
 /home/lhl/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
 /home/lhl/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake

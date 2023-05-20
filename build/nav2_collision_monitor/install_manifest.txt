@@ -1,0 +1,1 @@
+/home/lhl/nav2_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv

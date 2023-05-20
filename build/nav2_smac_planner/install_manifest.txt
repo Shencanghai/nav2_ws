@@ -1,0 +1,1 @@
+/home/lhl/nav2_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv

@@ -1,0 +1,1 @@
+Invoking command in '/home/lhl/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_common -- -j8 -l8

@@ -1,4 +1,4 @@
-# Install script for directory: /home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description
+# Install script for directory: /home/lhl/nav2_ws/src/sam_bot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,11 +44,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sam_bot_description" TYPE DIRECTORY FILES
-    "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/src"
-    "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/launch"
-    "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/rviz"
-    "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/config"
-    "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/world"
+    "/home/lhl/nav2_ws/src/sam_bot_description/src"
+    "/home/lhl/nav2_ws/src/sam_bot_description/launch"
+    "/home/lhl/nav2_ws/src/sam_bot_description/rviz"
+    "/home/lhl/nav2_ws/src/sam_bot_description/config"
+    "/home/lhl/nav2_ws/src/sam_bot_description/world"
     )
 endif()
 
@@ -108,7 +108,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sam_bot_description" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sam_bot_description" TYPE FILE FILES "/home/lhl/nav2_ws/src/sam_bot_description/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

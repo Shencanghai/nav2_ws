@@ -1,0 +1,30 @@
+[0.042s] Invoking command in '/home/lhl/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_common
+[0.119s] -- Found ament_cmake_core: 1.3.4 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.459s] -- Found ament_cmake_python: 1.3.4 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.667s] -- Configuring done
+[0.669s] -- Generating done
+[0.670s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_common
+[0.673s] Invoked command in '/home/lhl/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_common
+[0.676s] Invoking command in '/home/lhl/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_common -- -j8 -l8
+[0.777s] Built target ament_cmake_python_copy_nav2_common
+[1.051s] running egg_info
+[1.052s] creating nav2_common.egg-info
+[1.052s] writing nav2_common.egg-info/PKG-INFO
+[1.052s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.052s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.053s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.055s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.056s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[1.086s] Built target ament_cmake_python_build_nav2_common_egg
+[1.103s] Invoked command in '/home/lhl/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_common -- -j8 -l8
+[1.168s] Invoking command in '/home/lhl/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_common
+[1.181s] -- Install configuration: ""
+[1.182s] -- Up-to-date: /home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info
+[1.182s] -- Up-to-date: /home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[1.182s] -- Up-to-date: /home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[1.256s] Listing '/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[1.256s] Listing '/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[1.262s] -- Installing: /home/lhl/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[1.262s] -- Up-to-date: /home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake
+[1.265s] Invoked command in '/home/lhl/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_common

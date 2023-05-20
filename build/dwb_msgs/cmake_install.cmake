@@ -43,7 +43,19 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/rosidl_interfaces" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_c/dwb_msgs/" REGEX "/[^/]*\\.h$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -70,6 +82,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_typesupport_fastrtps_c/dwb_msgs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHECK
@@ -93,6 +109,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_cpp/dwb_msgs/" REGEX "/[^/]*\\.hpp$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_typesupport_fastrtps_cpp/dwb_msgs/" REGEX "/[^/]*\\.cpp$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHECK
@@ -113,6 +137,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_typesupport_introspection_c/dwb_msgs/" REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -162,6 +190,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/dwb_msgs/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_typesupport_introspection_cpp/dwb_msgs/" REGEX "/[^/]*\\.hpp$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHECK
@@ -208,11 +240,96 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/pythonpath.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/pythonpath.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs-1.1.6-py3.10.egg-info" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_python/dwb_msgs/dwb_msgs.egg-info/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs" TYPE DIRECTORY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3.10" "-m" "compileall"
         "/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs"
       )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs" TYPE SHARED_LIBRARY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs:/home/lhl/nav2_ws/build/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs" TYPE SHARED_LIBRARY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs:/home/lhl/nav2_ws/build/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs" TYPE SHARED_LIBRARY FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
+         OLD_RPATH "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_generator_py/dwb_msgs:/home/lhl/nav2_ws/build/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -236,6 +353,166 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/msg/CriticScore.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/msg/LocalPlanEvaluation.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/msg/Trajectory2D.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/msg/TrajectoryScore.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/srv/DebugLocalPlan.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/srv/GenerateTrajectory.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/srv/GenerateTwists.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/srv/GetCriticScore.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs/srv/ScoreTrajectory.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/msg/CriticScore.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/msg/LocalPlanEvaluation.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/msg/Trajectory2D.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/msg" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/msg/TrajectoryScore.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/DebugLocalPlan.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/DebugLocalPlan_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/DebugLocalPlan_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/GenerateTrajectory.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTrajectory_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTrajectory_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/GenerateTwists.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTwists_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GenerateTwists_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/GetCriticScore.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GetCriticScore_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/GetCriticScore_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/srv/ScoreTrajectory.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/srv" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/dwb_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dwb_msgs")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/environment" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/path.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/local_setup.bash")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/local_setup.sh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/local_setup.zsh")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/local_setup.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_environment_hooks/package.dsv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_index/share/ament_index/resource_index/packages/dwb_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -404,6 +681,45 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
     file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/CMakeFiles/Export/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake")
   endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/rosidl_cmake-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES "/home/lhl/nav2_ws/build/dwb_msgs/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs/cmake" TYPE FILE FILES
+    "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_core/dwb_msgsConfig.cmake"
+    "/home/lhl/nav2_ws/build/dwb_msgs/ament_cmake_core/dwb_msgsConfig-version.cmake"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwb_msgs" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

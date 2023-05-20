@@ -16,7 +16,7 @@ set(_sam_bot_description_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT sam_bot_description_FIND_QUIETLY)
-  message(STATUS "Found sam_bot_description: 1.0.0 (${sam_bot_description_DIR})")
+  message(STATUS "Found sam_bot_description: 0.0.0 (${sam_bot_description_DIR})")
 endif()
 
 # warn when using a deprecated package

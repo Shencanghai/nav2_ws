@@ -42,3 +42,27 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests" TYPE EXECUTABLE FILES "/home/lhl/nav2_ws/build/nav2_system_tests/src/updown/test_updown")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown"
+         OLD_RPATH "/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav2_map_server/lib:/home/lhl/nav2_ws/install/nav2_amcl/lib:/home/lhl/nav2_ws/install/nav2_lifecycle_manager/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_planner/lib:/home/lhl/nav2_ws/install/nav2_navfn_planner/lib:/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/opt/ros/humble/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nav2_system_tests/test_updown")
+    endif()
+  endif()
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav2_system_tests" TYPE FILE FILES "/home/lhl/nav2_ws/src/navigation2/nav2_system_tests/src/updown/test_updown_launch.py")
+endif()
+

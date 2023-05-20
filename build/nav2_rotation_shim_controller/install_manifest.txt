@@ -1,0 +1,1 @@
+/home/lhl/nav2_ws/install/nav2_rotation_shim_controller/share/nav2_rotation_shim_controller/package.dsv

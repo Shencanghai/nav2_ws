@@ -1,0 +1,1 @@
+/home/lhl/nav2_ws/install/nav2_amcl/share/nav2_amcl/package.dsv

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description
+CMAKE_SOURCE_DIR = /home/lhl/nav2_ws/src/sam_bot_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/lhl/nav2_ws/build/sam_bot_description
@@ -82,6 +82,6 @@ CMakeFiles/sam_bot_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/sam_bot_description_uninstall.dir/clean
 
 CMakeFiles/sam_bot_description_uninstall.dir/depend:
-	cd /home/lhl/nav2_ws/build/sam_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description /home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lhl/nav2_ws/build/sam_bot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lhl/nav2_ws/src/sam_bot_description /home/lhl/nav2_ws/src/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description /home/lhl/nav2_ws/build/sam_bot_description/CMakeFiles/sam_bot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sam_bot_description_uninstall.dir/depend
 

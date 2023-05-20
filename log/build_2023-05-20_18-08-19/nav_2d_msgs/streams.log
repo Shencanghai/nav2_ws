@@ -1,0 +1,23 @@
+[0.027s] Invoking command in '/home/lhl/nav2_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav_2d_msgs -- -j8 -l8
+[0.099s] [  1%] Built target nav_2d_msgs__cpp
+[0.108s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.109s] [ 12%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[0.154s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.155s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.156s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.157s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.158s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.159s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.188s] [ 80%] Built target nav_2d_msgs
+[0.218s] [ 81%] Built target nav_2d_msgs__py
+[0.249s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[0.279s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[0.280s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[0.292s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.378s] running egg_info
+[0.379s] writing nav_2d_msgs.egg-info/PKG-INFO
+[0.380s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[0.380s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[0.382s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.382s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.418s] [100%] Built target ament_cmake_python_build_nav_2d_msgs_egg

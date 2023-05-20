@@ -238,17 +238,11 @@ SITE:STRING=Pirbeste
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 
-//The directory containing a CMake configuration file for ament_cmake_copyright.
-ament_cmake_copyright_DIR:PATH=/opt/ros/humble/share/ament_cmake_copyright/cmake
-
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_cppcheck.
 ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/share/ament_cmake_cppcheck/cmake
-
-//The directory containing a CMake configuration file for ament_cmake_cpplint.
-ament_cmake_cpplint_DIR:PATH=/opt/ros/humble/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/share/ament_cmake_export_definitions/cmake
@@ -308,9 +302,6 @@ ament_cmake_version_DIR:PATH=/opt/ros/humble/share/ament_cmake_version/cmake
 ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/share/ament_cmake_xmllint/cmake
 
 //Path to a program.
-ament_copyright_BIN:FILEPATH=/opt/ros/humble/bin/ament_copyright
-
-//Path to a program.
 ament_flake8_BIN:FILEPATH=/opt/ros/humble/bin/ament_flake8
 
 //The directory containing a CMake configuration file for ament_lint_auto.
@@ -335,10 +326,7 @@ sam_bot_description_BINARY_DIR:STATIC=/home/lhl/nav2_ws/build/sam_bot_descriptio
 sam_bot_description_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-sam_bot_description_SOURCE_DIR:STATIC=/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description
-
-//The directory containing a CMake configuration file for xacro.
-xacro_DIR:PATH=/opt/ros/humble/share/xacro/cmake
+sam_bot_description_SOURCE_DIR:STATIC=/home/lhl/nav2_ws/src/sam_bot_description
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -428,7 +416,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/lhl/nav2_ws/src/sam_bot_description
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
