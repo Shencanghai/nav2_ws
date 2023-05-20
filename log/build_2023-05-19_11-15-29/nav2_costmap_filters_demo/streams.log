@@ -1,0 +1,49 @@
+[0.075s] Invoking command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_costmap_filters_demo
+[1.789s] -- The C compiler identification is GNU 11.3.0
+[2.706s] -- The CXX compiler identification is GNU 11.3.0
+[2.716s] -- Detecting C compiler ABI info
+[2.922s] -- Detecting C compiler ABI info - done
+[2.936s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.937s] -- Detecting C compile features
+[2.953s] -- Detecting C compile features - done
+[2.958s] -- Detecting CXX compiler ABI info
+[3.131s] -- Detecting CXX compiler ABI info - done
+[3.144s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.145s] -- Detecting CXX compile features
+[3.145s] -- Detecting CXX compile features - done
+[3.148s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.326s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[3.484s] -- Configuring done
+[3.487s] -- Generating done
+[3.488s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_costmap_filters_demo
+[3.494s] Invoked command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_costmap_filters_demo
+[3.495s] Invoking command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[3.527s] Invoked command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[3.547s] Invoking command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_costmap_filters_demo
+[3.554s] -- Install configuration: ""
+[3.554s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch
+[3.555s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[3.555s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps
+[3.555s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[3.555s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[3.555s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[3.556s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[3.557s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[3.558s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[3.558s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[3.558s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[3.558s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[3.558s] -- Installing: /home/lhl/nav2_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[3.562s] Invoked command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_costmap_filters_demo

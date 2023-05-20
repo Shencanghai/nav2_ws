@@ -1,0 +1,39 @@
+[0.127s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_voxel_grid -- -j8 -l8
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[0.251s] [ 20%] Built target gtest_main
+[0.257s] [ 40%] Built target voxel_grid
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.274s] [ 60%] Built target gtest
+[0.495s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[0.498s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[0.520s] [ 80%] Built target voxel_grid_bresenham_3d
+[0.521s] [100%] Built target voxel_grid_tests
+[0.542s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_voxel_grid -- -j8 -l8
+[0.591s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_voxel_grid
+[0.605s] -- Install configuration: "Release"
+[0.605s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.605s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/include
+[0.605s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/include/nav2_voxel_grid
+[0.605s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.606s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.607s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.607s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.608s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.613s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_voxel_grid

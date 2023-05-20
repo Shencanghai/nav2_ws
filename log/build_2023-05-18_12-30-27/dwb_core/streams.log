@@ -1,0 +1,108 @@
+[0.049s] Invoking command in '/home/lhl/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/dwb_core
+[0.171s] -- The C compiler identification is GNU 11.3.0
+[0.273s] -- The CXX compiler identification is GNU 11.3.0
+[0.290s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.455s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.455s] -- Detecting C compile features
+[0.456s] -- Detecting C compile features - done
+[0.461s] -- Detecting CXX compiler ABI info
+[0.642s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.677s] -- Detecting CXX compile features
+[0.686s] -- Detecting CXX compile features - done
+[0.703s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.087s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.184s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.237s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.241s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[1.326s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.338s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.364s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.432s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.577s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.581s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.827s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.873s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.960s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.982s] -- Looking for pthread.h
+[2.127s] -- Looking for pthread.h - found
+[2.128s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.282s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.284s] -- Found Threads: TRUE  
+[2.660s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.764s] -- Found nav_2d_msgs: 1.1.6 (/home/lhl/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[2.946s] -- Found dwb_msgs: 1.1.6 (/home/lhl/nav2_ws/install/dwb_msgs/share/dwb_msgs/cmake)
+[3.560s] -- Found nav2_costmap_2d: 1.1.6 (/home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[6.354s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.354s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.283s] -- Found nav_2d_utils: 1.1.6 (/home/lhl/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[9.219s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[10.841s] -- Setting build type to Release as none was specified.
+[23.273s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.427s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.444s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.446s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_core/include
+[23.446s] -- Configured cppcheck exclude dirs and/or files: 
+[23.449s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.449s] -- Configured cpplint exclude dirs and/or files: 
+[23.451s] -- Added test 'lint_cmake' to check CMake code style
+[23.454s] -- Added test 'uncrustify' to check C / C++ code style
+[23.454s] -- Configured uncrustify additional arguments: 
+[23.456s] -- Added test 'xmllint' to check XML markup files
+[23.461s] -- Configuring done
+[23.625s] -- Generating done
+[23.629s] -- Build files have been written to: /home/lhl/nav2_ws/build/dwb_core
+[23.655s] Invoked command in '/home/lhl/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/dwb_core
+[23.669s] Invoking command in '/home/lhl/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/dwb_core -- -j8 -l8
+[23.735s] [  9%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[23.743s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[23.751s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[26.744s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.983s] [ 36%] Built target gtest_main
+[27.180s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[48.086s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[48.147s] [ 54%] Built target gtest
+[55.573s] [ 63%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[60.773s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[62.129s] [ 81%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[62.723s] [ 81%] Built target dwb_core
+[62.758s] [ 90%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[70.110s] [100%] [32m[1mLinking CXX executable utils_test[0m
+[70.549s] [100%] Built target utils_test
+[70.566s] Invoked command in '/home/lhl/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/dwb_core -- -j8 -l8
+[70.621s] Invoking command in '/home/lhl/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/dwb_core
+[103.143s] -- Install configuration: "Release"
+[103.144s] -- Execute custom install script
+[103.145s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/lib/libdwb_core.so
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/exceptions.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/publisher.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[103.153s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/library_path.sh
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core//local_planner_plugin.xml
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/path.sh
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/environment/path.dsv
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/local_setup.bash
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/local_setup.sh
+[103.154s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/local_setup.zsh
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/local_setup.dsv
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/package.dsv
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[103.155s] -- Symlinking: /home/lhl/nav2_ws/install/dwb_core/share/dwb_core/package.xml
+[103.158s] Invoked command in '/home/lhl/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/dwb_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/dwb_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/dwb_core

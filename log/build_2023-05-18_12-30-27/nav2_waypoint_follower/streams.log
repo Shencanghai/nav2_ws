@@ -1,0 +1,127 @@
+[0.045s] Invoking command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_waypoint_follower
+[32.275s] -- The C compiler identification is GNU 11.3.0
+[32.276s] -- The CXX compiler identification is GNU 11.3.0
+[32.276s] -- Detecting C compiler ABI info
+[32.276s] -- Detecting C compiler ABI info - done
+[32.276s] -- Check for working C compiler: /usr/bin/cc - skipped
+[32.276s] -- Detecting C compile features
+[32.276s] -- Detecting C compile features - done
+[32.276s] -- Detecting CXX compiler ABI info
+[32.276s] -- Detecting CXX compiler ABI info - done
+[32.276s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[32.276s] -- Detecting CXX compile features
+[32.277s] -- Detecting CXX compile features - done
+[32.277s] -- Found OpenCV version 4.5.4
+[32.277s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[32.277s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[32.277s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[32.277s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[32.277s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[32.277s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[32.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.277s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[32.278s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[32.278s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[32.278s] -- Found FastRTPS: /opt/ros/humble/include  
+[32.278s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[32.278s] -- Looking for pthread.h
+[32.278s] -- Looking for pthread.h - found
+[32.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[32.278s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[32.278s] -- Found Threads: TRUE  
+[32.278s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[32.279s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[32.279s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[32.279s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[32.279s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[32.279s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[32.279s] -- Found nav2_msgs: 1.1.6 (/home/lhl/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[32.279s] -- Found nav2_util: 1.1.6 (/home/lhl/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[32.279s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[32.279s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[32.280s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[32.280s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[32.280s] -- Setting build type to Release as none was specified.
+[32.280s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[32.280s] -- Found ament_cmake_gtest: 1.3.4 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[32.280s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[32.502s] -- Added test 'copyright' to check source files copyright and LICENSE
+[32.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[32.511s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_waypoint_follower/include
+[32.511s] -- Configured cppcheck exclude dirs and/or files: 
+[32.514s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[32.515s] -- Configured cpplint exclude dirs and/or files: 
+[32.517s] -- Added test 'lint_cmake' to check CMake code style
+[32.524s] -- Added test 'uncrustify' to check C / C++ code style
+[32.524s] -- Configured uncrustify additional arguments: 
+[32.526s] -- Added test 'xmllint' to check XML markup files
+[32.534s] -- Configuring done
+[33.439s] -- Generating done
+[33.444s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_waypoint_follower
+[33.494s] Invoked command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_waypoint_follower
+[33.495s] Invoking command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_waypoint_follower -- -j8 -l8
+[65.333s] [  5%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[65.333s] [ 11%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[65.333s] [ 16%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[65.333s] [ 16%] Built target wait_at_waypoint
+[65.333s] [ 22%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[65.333s] [ 22%] Built target waypoint_follower_core
+[65.334s] [ 27%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[65.334s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[65.334s] [ 33%] Built target gtest_main
+[65.334s] [ 38%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[69.234s] [ 44%] [32m[1mLinking CXX executable waypoint_follower[0m
+[69.807s] [ 44%] Built target waypoint_follower
+[69.843s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[80.835s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[80.879s] [ 55%] Built target gtest
+[80.909s] [ 61%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[93.598s] [ 66%] [32m[1mLinking CXX shared library libinput_at_waypoint.so[0m
+[93.978s] [ 66%] Built target input_at_waypoint
+[94.001s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[99.866s] [ 77%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[100.296s] [ 77%] Built target test_dynamic_parameters
+[100.319s] [ 83%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[124.503s] [ 88%] [32m[1mLinking CXX shared library libphoto_at_waypoint.so[0m
+[125.035s] [ 88%] Built target photo_at_waypoint
+[125.078s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_task_executors.dir/test_task_executors.cpp.o[0m
+[138.433s] [100%] [32m[1mLinking CXX executable test_task_executors[0m
+[141.427s] [100%] Built target test_task_executors
+[141.501s] Invoked command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_waypoint_follower -- -j8 -l8
+[142.331s] Invoking command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_waypoint_follower
+[142.353s] -- Install configuration: "Release"
+[142.353s] -- Execute custom install script
+[142.353s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[142.402s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[142.442s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[142.490s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[142.533s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[142.584s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[142.621s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[142.662s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[142.703s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[142.725s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[142.738s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[142.761s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower//plugins.xml
+[142.775s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[142.787s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[142.803s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[142.817s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[142.830s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[142.846s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[142.867s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[142.883s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[142.897s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[142.911s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[142.925s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[142.940s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[142.953s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[142.969s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[142.983s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[143.008s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[143.022s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[143.035s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[143.052s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[143.065s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[143.087s] Invoked command in '/home/lhl/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_waypoint_follower

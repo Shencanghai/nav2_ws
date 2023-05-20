@@ -1,0 +1,138 @@
+[0.382s] Invoking command in '/home/lhl/nav2_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_behaviors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_behaviors
+[17.757s] -- The C compiler identification is GNU 11.3.0
+[17.757s] -- The CXX compiler identification is GNU 11.3.0
+[17.768s] -- Detecting C compiler ABI info
+[17.769s] -- Detecting C compiler ABI info - done
+[17.769s] -- Check for working C compiler: /usr/bin/cc - skipped
+[17.769s] -- Detecting C compile features
+[17.769s] -- Detecting C compile features - done
+[17.769s] -- Detecting CXX compiler ABI info
+[17.769s] -- Detecting CXX compiler ABI info - done
+[17.770s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[17.770s] -- Detecting CXX compile features
+[17.770s] -- Detecting CXX compile features - done
+[17.770s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.770s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[17.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[17.770s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[17.771s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[17.771s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[17.771s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[17.771s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[17.771s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.771s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.771s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[17.772s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[17.772s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[17.772s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.772s] -- Looking for pthread.h
+[17.772s] -- Looking for pthread.h - found
+[17.772s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[17.773s] -- Found Threads: TRUE  
+[17.773s] -- Found rclcpp_action: 16.0.4 (/opt/ros/humble/share/rclcpp_action/cmake)
+[17.773s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[17.773s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[17.773s] -- Found nav2_behavior_tree: 1.1.6 (/home/lhl/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[17.773s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[17.773s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[17.773s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[17.773s] -- Found nav2_costmap_2d: 1.1.6 (/home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[17.774s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[20.458s] -- Setting build type to Release as none was specified.
+[129.950s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[130.113s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[146.047s] -- Added test 'copyright' to check source files copyright and LICENSE
+[146.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[146.055s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_behaviors/include
+[146.055s] -- Configured cppcheck exclude dirs and/or files: 
+[146.058s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[146.059s] -- Configured cpplint exclude dirs and/or files: 
+[146.061s] -- Added test 'lint_cmake' to check CMake code style
+[146.064s] -- Added test 'uncrustify' to check C / C++ code style
+[146.064s] -- Configured uncrustify additional arguments: 
+[146.066s] -- Added test 'xmllint' to check XML markup files
+[146.072s] -- Configuring done
+[146.788s] -- Generating done
+[146.794s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_behaviors
+[146.823s] Invoked command in '/home/lhl/nav2_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_behaviors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_behaviors
+[146.823s] Invoking command in '/home/lhl/nav2_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_behaviors -- -j8 -l8
+[174.705s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[174.705s] [ 10%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[174.705s] [ 10%] Built target nav2_spin_behavior
+[174.705s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[174.705s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[174.705s] [ 20%] Built target gtest
+[174.729s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[176.300s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[176.346s] [ 30%] Built target gtest_main
+[176.378s] [ 35%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[194.063s] [ 40%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[194.570s] [ 40%] Built target behavior_server_core
+[194.605s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_behaviors.dir/test_behaviors.cpp.o[0m
+[212.080s] [ 50%] [32m[1mLinking CXX executable test_behaviors[0m
+[212.740s] [ 50%] Built target test_behaviors
+[212.771s] [ 55%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[220.118s] [ 60%] [32m[1mLinking CXX executable behavior_server[0m
+[220.484s] [ 60%] Built target behavior_server
+[220.511s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[256.964s] [ 70%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[257.820s] [ 70%] Built target nav2_assisted_teleop_behavior
+[257.863s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[272.142s] [ 80%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[272.643s] [ 80%] Built target nav2_back_up_behavior
+[272.678s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[284.501s] [ 90%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[285.023s] [ 90%] Built target nav2_drive_on_heading_behavior
+[285.063s] [ 95%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[298.211s] [100%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[298.676s] [100%] Built target nav2_wait_behavior
+[298.699s] Invoked command in '/home/lhl/nav2_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_behaviors -- -j8 -l8
+[298.767s] Invoking command in '/home/lhl/nav2_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_behaviors
+[298.778s] -- Install configuration: "Release"
+[298.779s] -- Execute custom install script
+[298.779s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors//behavior_plugin.xml
+[298.793s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+[298.806s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[298.822s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[298.832s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[298.847s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[298.861s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[298.875s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[298.889s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[298.900s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[298.911s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[298.911s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[298.925s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.hpp
+[298.944s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[298.953s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.hpp
+[298.964s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[298.975s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.hpp
+[298.984s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[298.995s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.hpp
+[299.006s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[299.019s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.hpp
+[299.032s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[299.046s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[299.056s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[299.068s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[299.079s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[299.089s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[299.099s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[299.110s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[299.119s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[299.131s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[299.143s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[299.152s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[299.165s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[299.177s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[299.190s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[299.199s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[299.210s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[299.219s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[299.230s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[299.240s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[299.253s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[299.266s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[299.297s] Invoked command in '/home/lhl/nav2_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_behavior_tree:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_behavior_tree/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_behaviors

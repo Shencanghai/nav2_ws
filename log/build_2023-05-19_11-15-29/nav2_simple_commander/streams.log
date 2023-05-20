@@ -1,0 +1,85 @@
+[1.640s] Invoking command in '/home/lhl/nav2_ws/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/build/nav2_simple_commander/prefix_override:/home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lhl/nav2_ws/build/nav2_simple_commander/build
+[1.872s] running develop
+[1.889s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.889s]   warnings.warn(
+[1.904s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.904s]   warnings.warn(
+[1.982s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.982s]   warnings.warn(
+[1.982s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.982s]   warnings.warn(
+[2.094s] Removing /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[2.115s] Invoked command in '/home/lhl/nav2_ws/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/build/nav2_simple_commander/prefix_override:/home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lhl/nav2_ws/build/nav2_simple_commander/build
+[2.116s] Invoking command in '/home/lhl/nav2_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/build/nav2_simple_commander/prefix_override:/home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/lhl/nav2_ws/build/nav2_simple_commander/build install --record /home/lhl/nav2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed
+[2.367s] running egg_info
+[2.368s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[2.369s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[2.369s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[2.369s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[2.369s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[2.373s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.397s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.397s] running build
+[2.398s] running build_py
+[2.398s] creating /home/lhl/nav2_ws/build/nav2_simple_commander/build
+[2.398s] creating /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib
+[2.398s] creating /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.398s] copying nav2_simple_commander/example_follow_path.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.398s] copying nav2_simple_commander/robot_navigator.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.398s] copying nav2_simple_commander/costmap_2d.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/line_iterator.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/demo_security.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.399s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.400s] copying nav2_simple_commander/demo_recoveries.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.400s] copying nav2_simple_commander/demo_picking.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.400s] copying nav2_simple_commander/demo_inspection.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.400s] copying nav2_simple_commander/__init__.py -> /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.401s] running install
+[2.401s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.401s]   warnings.warn(
+[2.401s] running install_lib
+[2.402s] creating /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.402s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.402s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.403s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.403s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.403s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.403s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.403s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.404s] copying /home/lhl/nav2_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[2.405s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[2.406s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[2.411s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[2.412s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[2.413s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[2.413s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[2.414s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[2.415s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[2.415s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[2.416s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[2.417s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[2.418s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[2.419s] byte-compiling /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[2.419s] running install_data
+[2.420s] running install_egg_info
+[2.423s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[2.425s] running install_scripts
+[2.456s] Installing demo_inspection script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.456s] Installing demo_picking script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.456s] Installing demo_recoveries script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.456s] Installing demo_security script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.457s] Installing example_assisted_teleop script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.457s] Installing example_follow_path script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.457s] Installing example_nav_through_poses script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.459s] Installing example_nav_to_pose script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.459s] Installing example_waypoint_follower script to /home/lhl/nav2_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.459s] writing list of installed files to '/home/lhl/nav2_ws/build/nav2_simple_commander/install.log'
+[2.491s] Invoked command in '/home/lhl/nav2_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_msgs LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/build/nav2_simple_commander/prefix_override:/home/lhl/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/lhl/nav2_ws/build/nav2_simple_commander/build install --record /home/lhl/nav2_ws/build/nav2_simple_commander/install.log --single-version-externally-managed

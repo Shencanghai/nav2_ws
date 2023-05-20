@@ -1,0 +1,121 @@
+[0.048s] Invoking command in '/home/lhl/nav2_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_controller
+[0.150s] -- The C compiler identification is GNU 11.3.0
+[0.262s] -- The CXX compiler identification is GNU 11.3.0
+[0.283s] -- Detecting C compiler ABI info
+[0.475s] -- Detecting C compiler ABI info - done
+[0.494s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.495s] -- Detecting C compile features
+[0.495s] -- Detecting C compile features - done
+[0.500s] -- Detecting CXX compiler ABI info
+[0.673s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.684s] -- Detecting CXX compile features - done
+[0.689s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.075s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.199s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.262s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[1.366s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.378s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.397s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.433s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.661s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.668s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.920s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.987s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.107s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.130s] -- Looking for pthread.h
+[2.284s] -- Looking for pthread.h - found
+[2.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.487s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.489s] -- Found Threads: TRUE  
+[6.149s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.149s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.493s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[9.497s] -- Found nav_2d_utils: 1.1.6 (/home/lhl/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[10.799s] -- Setting build type to Release as none was specified.
+[47.715s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[47.937s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[57.217s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[65.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[65.246s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_controller/include
+[65.246s] -- Configured cppcheck exclude dirs and/or files: 
+[65.249s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[65.250s] -- Configured cpplint exclude dirs and/or files: 
+[65.252s] -- Added test 'lint_cmake' to check CMake code style
+[65.257s] -- Added test 'uncrustify' to check C / C++ code style
+[65.257s] -- Configured uncrustify additional arguments: 
+[65.260s] -- Added test 'xmllint' to check XML markup files
+[65.267s] -- Configuring done
+[66.111s] -- Generating done
+[66.117s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_controller
+[66.149s] Invoked command in '/home/lhl/nav2_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_controller
+[66.149s] Invoking command in '/home/lhl/nav2_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_controller -- -j8 -l8
+[99.026s] [  5%] [32mBuilding CXX object CMakeFiles/controller_server_core.dir/src/controller_server.cpp.o[0m
+[110.462s] [ 10%] [32m[1mLinking CXX shared library libcontroller_server_core.so[0m
+[111.159s] [ 10%] Built target controller_server_core
+[111.190s] [ 15%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[123.307s] [ 20%] [32m[1mLinking CXX static library libgtest.a[0m
+[123.365s] [ 20%] Built target gtest
+[123.404s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_server.dir/src/main.cpp.o[0m
+[135.024s] [ 30%] [32m[1mLinking CXX executable controller_server[0m
+[135.647s] [ 30%] Built target controller_server
+[135.677s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[137.288s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[137.334s] [ 40%] Built target gtest_main
+[137.367s] [ 45%] [32mBuilding CXX object CMakeFiles/simple_goal_checker.dir/plugins/simple_goal_checker.cpp.o[0m
+[146.667s] [ 50%] [32m[1mLinking CXX shared library libsimple_goal_checker.so[0m
+[147.087s] [ 50%] Built target simple_goal_checker
+[147.125s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[163.939s] [ 60%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[164.745s] [ 60%] Built target test_dynamic_parameters
+[164.778s] [ 65%] [32mBuilding CXX object CMakeFiles/stopped_goal_checker.dir/plugins/stopped_goal_checker.cpp.o[0m
+[173.432s] [ 70%] [32m[1mLinking CXX shared library libstopped_goal_checker.so[0m
+[173.793s] [ 70%] Built target stopped_goal_checker
+[173.847s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_progress_checker.dir/plugins/simple_progress_checker.cpp.o[0m
+[180.564s] [ 80%] [32m[1mLinking CXX shared library libsimple_progress_checker.so[0m
+[180.975s] [ 80%] Built target simple_progress_checker
+[181.012s] [ 85%] [32mBuilding CXX object plugins/test/CMakeFiles/gctest.dir/goal_checker.cpp.o[0m
+[192.461s] [ 90%] [32m[1mLinking CXX executable gctest[0m
+[193.016s] [ 90%] Built target gctest
+[193.063s] [ 95%] [32mBuilding CXX object plugins/test/CMakeFiles/pctest.dir/progress_checker.cpp.o[0m
+[200.223s] [100%] [32m[1mLinking CXX executable pctest[0m
+[200.689s] [100%] Built target pctest
+[200.709s] Invoked command in '/home/lhl/nav2_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_controller -- -j8 -l8
+[200.786s] Invoking command in '/home/lhl/nav2_ws/build/nav2_controller': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_controller
+[202.677s] -- Install configuration: "Release"
+[202.677s] -- Execute custom install script
+[202.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/lib/libsimple_progress_checker.so
+[202.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/lib/libsimple_goal_checker.so
+[202.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/lib/libstopped_goal_checker.so
+[202.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/lib/libcontroller_server_core.so
+[202.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/lib/nav2_controller/controller_server
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/include//nav2_controller/controller_server.hpp
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/include//nav2_controller/plugins/simple_goal_checker.hpp
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/include//nav2_controller/plugins/simple_progress_checker.hpp
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/include//nav2_controller/plugins/stopped_goal_checker.hpp
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/library_path.sh
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/library_path.dsv
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller//plugins.xml
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/ament_index/resource_index/package_run_dependencies/nav2_controller
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/ament_index/resource_index/parent_prefix_path/nav2_controller
+[202.678s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.sh
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.dsv
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/path.sh
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/environment/path.dsv
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/local_setup.bash
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/local_setup.sh
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/local_setup.zsh
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/local_setup.dsv
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/package.dsv
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/ament_index/resource_index/packages/nav2_controller
+[202.679s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_controller
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/ament_index/resource_index/rclcpp_components/nav2_controller
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig.cmake
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig-version.cmake
+[202.680s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_controller/share/nav2_controller/package.xml
+[202.708s] Invoked command in '/home/lhl/nav2_ws/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav_2d_utils:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav_2d_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav_2d_utils/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:/home/lhl/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_controller

@@ -1,0 +1,77 @@
+[0.408s] Invoking command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_constrained_smoother
+[3.305s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.305s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.305s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[3.305s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.305s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.305s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.306s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.306s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.306s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.336s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.279s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[6.332s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[6.352s] -- Found required Ceres dependency: glog
+[6.354s] -- Found required Ceres dependency: gflags
+[6.356s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[13.730s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.814s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[28.893s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.894s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_constrained_smoother/include
+[28.894s] -- Configured cppcheck exclude dirs and/or files: 
+[28.896s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.896s] -- Configured cpplint exclude dirs and/or files: 
+[28.897s] -- Added test 'lint_cmake' to check CMake code style
+[28.898s] -- Added test 'uncrustify' to check C / C++ code style
+[28.898s] -- Configured uncrustify additional arguments: 
+[28.899s] -- Added test 'xmllint' to check XML markup files
+[29.124s] -- Configuring done
+[29.374s] -- Generating done
+[29.379s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_constrained_smoother
+[29.406s] Invoked command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_constrained_smoother -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_constrained_smoother
+[29.407s] Invoking command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_constrained_smoother -- -j8 -l8
+[29.458s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[29.462s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[29.490s] [ 20%] Built target gtest_main
+[29.497s] [ 40%] Built target gtest
+[29.537s] [35m[1mConsolidate compiler generated dependencies of target nav2_constrained_smoother[0m
+[29.570s] [ 60%] Built target nav2_constrained_smoother
+[29.614s] [35m[1mConsolidate compiler generated dependencies of target test_smoother_cost_function[0m
+[29.642s] [ 80%] Built target test_smoother_cost_function
+[29.646s] [35m[1mConsolidate compiler generated dependencies of target test_constrained_smoother[0m
+[29.680s] [100%] Built target test_constrained_smoother
+[29.697s] Invoked command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_constrained_smoother -- -j8 -l8
+[29.760s] Invoking command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_constrained_smoother
+[29.773s] -- Install configuration: "Release"
+[29.773s] -- Execute custom install script
+[29.774s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/lib/libnav2_constrained_smoother.so
+[29.776s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/constrained_smoother.hpp
+[29.776s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/options.hpp
+[29.776s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother.hpp
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/smoother_cost_function.hpp
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/include//nav2_constrained_smoother/utils.hpp
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.sh
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/library_path.dsv
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother//nav2_constrained_smoother.xml
+[29.777s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_constrained_smoother
+[29.782s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_constrained_smoother
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.sh
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/ament_prefix_path.dsv
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.sh
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/environment/path.dsv
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.bash
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.sh
+[29.783s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.zsh
+[29.784s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/local_setup.dsv
+[29.784s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.dsv
+[29.807s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/packages/nav2_constrained_smoother
+[29.809s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_constrained_smoother
+[29.811s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.812s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[29.814s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.816s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig.cmake
+[29.817s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/cmake/nav2_constrained_smootherConfig-version.cmake
+[29.819s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_constrained_smoother/share/nav2_constrained_smoother/package.xml
+[29.830s] Invoked command in '/home/lhl/nav2_ws/build/nav2_constrained_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_constrained_smoother

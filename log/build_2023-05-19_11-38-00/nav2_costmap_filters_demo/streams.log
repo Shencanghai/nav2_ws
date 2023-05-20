@@ -1,0 +1,5 @@
+[0.025s] Invoking command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_costmap_filters_demo -- -j8 -l8
+[0.045s] [0mCMake Error: The source directory "/home/lhl/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo" does not exist.
+[0.045s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.045s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.047s] Invoked command in '/home/lhl/nav2_ws/build/nav2_costmap_filters_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_costmap_filters_demo -- -j8 -l8

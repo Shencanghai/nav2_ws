@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/lhl/nav2_ws/src/navigation2_tutorials/nav2_costmap_filters_demo" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:226：cmake_check_build_system] 错误 1

@@ -1,0 +1,98 @@
+[0.035s] Invoking command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_theta_star_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_theta_star_planner
+[28.083s] -- The C compiler identification is GNU 11.3.0
+[28.083s] -- The CXX compiler identification is GNU 11.3.0
+[28.083s] -- Detecting C compiler ABI info
+[28.083s] -- Detecting C compiler ABI info - done
+[28.084s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.084s] -- Detecting C compile features
+[28.084s] -- Detecting C compile features - done
+[28.084s] -- Detecting CXX compiler ABI info
+[28.084s] -- Detecting CXX compiler ABI info - done
+[28.084s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.084s] -- Detecting CXX compile features
+[28.084s] -- Detecting CXX compile features - done
+[28.084s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[28.084s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[28.084s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[28.085s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[28.085s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[28.085s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[28.085s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[28.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.085s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[28.085s] -- Found nav2_core: 1.1.6 (/home/lhl/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[28.085s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[28.085s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[28.085s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[28.086s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.086s] -- Looking for pthread.h
+[28.086s] -- Looking for pthread.h - found
+[28.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.086s] -- Found Threads: TRUE  
+[28.086s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[28.086s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[28.086s] -- Setting build type to Release as none was specified.
+[28.087s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.087s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[28.087s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.087s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.089s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_theta_star_planner/include
+[28.089s] -- Configured cppcheck exclude dirs and/or files: 
+[28.090s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.090s] -- Configured cpplint exclude dirs and/or files: 
+[28.090s] -- Added test 'lint_cmake' to check CMake code style
+[28.090s] -- Added test 'uncrustify' to check C / C++ code style
+[28.090s] -- Configured uncrustify additional arguments: 
+[28.090s] -- Added test 'xmllint' to check XML markup files
+[28.090s] -- Configuring done
+[28.090s] -- Generating done
+[28.091s] -- Build files have been written to: /home/lhl/nav2_ws/build/nav2_theta_star_planner
+[28.095s] Invoked command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_theta_star_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/nav2_theta_star_planner
+[28.096s] Invoking command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_theta_star_planner -- -j8 -l8
+[28.198s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star.cpp.o[0m
+[36.281s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_theta_star_planner.dir/src/theta_star_planner.cpp.o[0m
+[45.724s] [ 33%] [32m[1mLinking CXX shared library libnav2_theta_star_planner.so[0m
+[46.136s] [ 33%] Built target nav2_theta_star_planner
+[46.178s] [ 44%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[58.738s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[58.796s] [ 55%] Built target gtest
+[58.827s] [ 66%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[60.455s] [ 77%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[60.529s] [ 77%] Built target gtest_main
+[60.551s] [ 88%] [32mBuilding CXX object CMakeFiles/test_theta_star.dir/test/test_theta_star.cpp.o[0m
+[77.196s] [100%] [32m[1mLinking CXX executable test_theta_star[0m
+[78.470s] [100%] Built target test_theta_star
+[78.527s] Invoked command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/build/nav2_theta_star_planner -- -j8 -l8
+[79.028s] Invoking command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_theta_star_planner
+[105.676s] -- Install configuration: "Release"
+[105.676s] -- Execute custom install script
+[105.677s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner//theta_star_planner.xml
+[105.689s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/lib/libnav2_theta_star_planner.so
+[105.689s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star.hpp
+[105.695s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/include//nav2_theta_star_planner/theta_star_planner.hpp
+[105.695s] -- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/theta_star_planner.xml
+[105.695s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.sh
+[105.695s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/library_path.dsv
+[105.695s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/package_run_dependencies/nav2_theta_star_planner
+[105.695s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/parent_prefix_path/nav2_theta_star_planner
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.sh
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/ament_prefix_path.dsv
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.sh
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/environment/path.dsv
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.bash
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.sh
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.zsh
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/local_setup.dsv
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.dsv
+[105.696s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/packages/nav2_theta_star_planner
+[105.697s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_theta_star_planner
+[105.697s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[105.697s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[105.697s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[105.697s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig.cmake
+[105.701s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/cmake/nav2_theta_star_plannerConfig-version.cmake
+[105.701s] -- Symlinking: /home/lhl/nav2_ws/install/nav2_theta_star_planner/share/nav2_theta_star_planner/package.xml
+[105.725s] Invoked command in '/home/lhl/nav2_ws/build/nav2_theta_star_planner' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/install/nav2_core:/home/lhl/nav2_ws/install/nav2_costmap_2d:/home/lhl/nav2_ws/install/nav2_util:/home/lhl/nav2_ws/install/nav2_voxel_grid:/home/lhl/nav2_ws/install/nav2_msgs:/home/lhl/nav2_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/install/nav2_util/lib:/home/lhl/nav2_ws/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/build/nav2_theta_star_planner

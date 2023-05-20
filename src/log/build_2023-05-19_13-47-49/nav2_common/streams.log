@@ -1,0 +1,62 @@
+[0.020s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_common
+[0.034s] -- Found ament_cmake_core: 1.3.4 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.220s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.277s] -- Found ament_cmake_python: 1.3.4 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[0.452s] -- Configuring done
+[0.455s] -- Generating done
+[0.455s] -- Build files have been written to: /home/lhl/nav2_ws/src/build/nav2_common
+[0.458s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_common -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_common
+[0.459s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_common -- -j8 -l8
+[0.510s] Built target ament_cmake_python_copy_nav2_common
+[0.745s] running egg_info
+[0.749s] creating nav2_common.egg-info
+[0.749s] writing nav2_common.egg-info/PKG-INFO
+[0.749s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.750s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.750s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.751s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.751s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.775s] Built target ament_cmake_python_build_nav2_common_egg
+[0.786s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_common -- -j8 -l8
+[0.808s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_common
+[0.815s] -- Install configuration: ""
+[0.815s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.815s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.815s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info
+[0.815s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/dependency_links.txt
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/SOURCES.txt
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/PKG-INFO
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/top_level.txt
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.816s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.817s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.817s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.817s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.849s] Listing '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[0.849s] Compiling '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[0.849s] Listing '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[0.849s] Compiling '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[0.850s] Compiling '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[0.850s] Compiling '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[0.850s] Compiling '/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[0.854s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.854s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.854s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.854s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.854s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/path.sh
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/local_setup.bash
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/local_setup.sh
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/package.dsv
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.855s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.856s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.856s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/package.xml
+[0.856s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake
+[0.856s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.860s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_common

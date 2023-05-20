@@ -1,0 +1,156 @@
+-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+-- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found nav2_msgs: 1.1.6 (/home/lhl/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found nav2_util: 1.1.6 (/home/lhl/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_voxel_grid: 1.1.6 (/home/lhl/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_sensor_msgs: 0.25.2 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_costmap_2d/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lhl/nav2_ws/build/nav2_costmap_2d
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target order_layer[0m
+[  2%] Built target gtest
+[  5%] Built target order_layer
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[  8%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[ 26%] Built target nav2_costmap_2d_core
+[35m[1mConsolidate compiler generated dependencies of target array_parser_test[0m
+[35m[1mConsolidate compiler generated dependencies of target collision_footprint_test[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_convesion_test[0m
+[ 29%] Built target array_parser_test
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_markers[0m
+[ 32%] Built target collision_footprint_test
+[ 34%] Built target costmap_convesion_test
+[35m[1mConsolidate compiler generated dependencies of target declare_parameter_test[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_cloud[0m
+[ 37%] Built target nav2_costmap_2d_markers
+[ 40%] Built target declare_parameter_test
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_client[0m
+[ 42%] Built target nav2_costmap_2d_cloud
+[35m[1mConsolidate compiler generated dependencies of target filters[0m
+[ 48%] Built target nav2_costmap_2d_client
+[35m[1mConsolidate compiler generated dependencies of target copy_window_test[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_bresenham_2d[0m
+[35m[1mConsolidate compiler generated dependencies of target dyn_params_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_filter_service_test[0m
+[ 53%] Built target filters
+[35m[1mConsolidate compiler generated dependencies of target plugin_api_order[0m
+[ 56%] Built target costmap_bresenham_2d
+[ 58%] Built target copy_window_test
+[35m[1mConsolidate compiler generated dependencies of target speed_filter_test[0m
+[35m[1mConsolidate compiler generated dependencies of target binary_filter_test[0m
+[ 61%] Built target dyn_params_tests
+[ 64%] Built target plugin_api_order
+[ 66%] Built target costmap_filter_service_test
+[ 69%] Built target speed_filter_test
+[ 72%] Built target binary_filter_test
+[35m[1mConsolidate compiler generated dependencies of target keepout_filter_test[0m
+[ 74%] Built target keepout_filter_test
+[35m[1mConsolidate compiler generated dependencies of target layers[0m
+[ 84%] Built target layers
+[35m[1mConsolidate compiler generated dependencies of target inflation_tests_exec[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle_tests_exec[0m
+[35m[1mConsolidate compiler generated dependencies of target range_tests_exec[0m
+[ 86%] Built target inflation_tests_exec
+[ 89%] Built target obstacle_tests_exec
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d[0m
+[35m[1mConsolidate compiler generated dependencies of target footprint_tests_exec[0m
+[ 92%] Built target range_tests_exec
+[ 94%] Built target nav2_costmap_2d
+[ 97%] Built target footprint_tests_exec
+[35m[1mConsolidate compiler generated dependencies of target test_collision_checker_exec[0m
+[100%] Built target test_collision_checker_exec
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/liblayers.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/libfilters.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/binary_filter.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/filter_values.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_filters/speed_filter.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+-- Symlinking: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+-- Up-to-date symlink: /home/lhl/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml

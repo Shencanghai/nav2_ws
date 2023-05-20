@@ -1,0 +1,58 @@
+[0.065s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_waypoint_follower -- -j8 -l8
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target waypoint_follower_core[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target wait_at_waypoint[0m
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target input_at_waypoint[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target photo_at_waypoint[0m
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.194s] [ 11%] Built target waypoint_follower_core
+[0.199s] [ 22%] Built target wait_at_waypoint
+[0.201s] [ 33%] Built target input_at_waypoint
+[0.201s] [ 44%] Built target gtest_main
+[0.205s] [ 55%] Built target photo_at_waypoint
+[0.208s] [ 66%] Built target gtest
+[0.216s] [35m[1mConsolidate compiler generated dependencies of target waypoint_follower[0m
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target test_task_executors[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target test_dynamic_parameters[0m
+[0.255s] [ 77%] Built target waypoint_follower
+[0.262s] [100%] Built target test_task_executors
+[0.263s] [100%] Built target test_dynamic_parameters
+[0.319s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_waypoint_follower -- -j8 -l8
+[0.402s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_waypoint_follower
+[0.404s] -- Install configuration: "Release"
+[0.407s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[0.407s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[0.408s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[0.408s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[0.409s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[0.424s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include/
+[0.424s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower
+[0.424s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins
+[0.424s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[0.424s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.sh
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/library_path.dsv
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/plugins.xml
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[0.425s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[0.426s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/ament_index/resource_index/nav2_waypoint_follower__pluginlib__plugin/nav2_waypoint_follower
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/nav2_waypoint_follower
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[0.426s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[0.427s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[0.465s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_core:/home/lhl/nav2_ws/src/install/nav2_costmap_2d:/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_voxel_grid:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_costmap_2d/lib:/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_voxel_grid/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_waypoint_follower

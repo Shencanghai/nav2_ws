@@ -1,0 +1,160 @@
+[0.031s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_map_server
+[0.112s] -- The C compiler identification is GNU 11.3.0
+[0.197s] -- The CXX compiler identification is GNU 11.3.0
+[0.208s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.318s] -- Detecting C compile features
+[0.318s] -- Detecting C compile features - done
+[0.322s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.464s] -- Detecting CXX compile features - done
+[0.464s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.747s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.898s] -- Found nav2_common: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_common/share/nav2_common/cmake)
+[0.902s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.953s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.960s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.108s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.258s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.304s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.378s] -- Looking for pthread.h
+[1.857s] -- Looking for pthread.h - found
+[1.857s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.979s] -- Found Threads: TRUE  
+[2.315s] -- Found rclcpp_lifecycle: 16.0.4 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.401s] -- Found rclcpp_components: 16.0.4 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.531s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.764s] -- Found nav2_msgs: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.202s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[3.209s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[3.224s] -- Found nav2_util: 1.1.6 (/home/lhl/nav2_ws/src/install/nav2_util/share/nav2_util/cmake)
+[3.682s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.684s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.684s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.033s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[4.033s] -- Setting build type to Release as none was specified.
+[9.989s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.183s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.195s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.207s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.229s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.231s] -- Configured cppcheck include dirs: /home/lhl/nav2_ws/src/navigation2/nav2_map_server/include
+[10.231s] -- Configured cppcheck exclude dirs and/or files: 
+[10.236s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.237s] -- Configured cpplint exclude dirs and/or files: 
+[10.239s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.241s] -- Added test 'lint_cmake' to check CMake code style
+[10.243s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.248s] -- Added test 'uncrustify' to check C / C++ code style
+[10.248s] -- Configured uncrustify additional arguments: 
+[10.250s] -- Added test 'xmllint' to check XML markup files
+[10.267s] -- Configuring done
+[11.411s] -- Generating done
+[11.541s] -- Build files have been written to: /home/lhl/nav2_ws/src/build/nav2_map_server
+[11.618s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lhl/nav2_ws/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/src/install/nav2_map_server
+[11.618s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_map_server -- -j8 -l8
+[11.891s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[11.915s] [  5%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[11.922s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[11.932s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.041s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[16.287s] [ 13%] Built target gtest_main
+[26.150s] [ 16%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[27.207s] [ 16%] Built target map_io
+[31.137s] [ 19%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.201s] [ 19%] Built target gtest
+[31.235s] [ 22%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[39.547s] [ 25%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[39.723s] [ 27%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[40.458s] [ 27%] Built target test_map_saver_publisher
+[40.486s] [ 30%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[50.644s] [ 33%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[50.834s] [ 36%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[51.076s] [ 36%] Built target test_map_saver_cli
+[51.111s] [ 38%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[51.113s] [ 41%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[51.118s] [ 44%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[51.119s] [ 47%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[60.800s] [ 50%] [32m[1mLinking CXX executable test_map_io[0m
+[61.212s] [ 50%] Built target test_map_io
+[63.910s] [ 52%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[71.023s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[71.382s] [ 55%] Built target map_server_core
+[71.403s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[71.410s] [ 61%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[76.183s] [ 63%] [32m[1mLinking CXX executable map_server[0m
+[76.619s] [ 63%] Built target map_server
+[76.649s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[76.649s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[76.688s] [ 72%] [32m[1mLinking CXX executable map_saver_cli[0m
+[77.138s] [ 72%] Built target map_saver_cli
+[77.168s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[77.172s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[86.095s] [ 80%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[86.528s] [ 80%] Built target test_map_saver_node
+[86.558s] [ 86%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[86.559s] [ 86%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[88.191s] [ 88%] [32m[1mLinking CXX executable test_map_server_node[0m
+[88.605s] [ 88%] Built target test_map_server_node
+[88.644s] [ 91%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[91.477s] [ 94%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[91.945s] [ 94%] Built target costmap_filter_info_server
+[93.700s] [ 97%] [32m[1mLinking CXX executable map_saver_server[0m
+[94.052s] [ 97%] Built target map_saver_server
+[104.403s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[105.324s] [100%] Built target test_costmap_filter_info_server
+[105.388s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_map_server -- -j8 -l8
+[106.398s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_map_server': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_map_server
+[106.422s] -- Install configuration: "Release"
+[106.422s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/libmap_server_core.so
+[106.422s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[106.422s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/libmap_io.so
+[106.422s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/libmap_io.so" to ""
+[106.422s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_server
+[106.423s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[106.425s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[106.426s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[106.426s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[106.427s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[106.427s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[106.428s] -- Set runtime path of "/home/lhl/nav2_ws/src/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[106.428s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include/
+[106.428s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server
+[106.428s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/launch
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[106.429s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[106.446s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[106.449s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[106.449s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[106.452s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[106.452s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[106.453s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[106.453s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[106.454s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[106.454s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[106.455s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[106.455s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[106.455s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/package.dsv
+[106.456s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[106.458s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[106.461s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.462s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[106.462s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.463s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[106.463s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[106.464s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_map_server/share/nav2_map_server/package.xml
+[106.475s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_map_server

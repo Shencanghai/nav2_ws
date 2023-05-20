@@ -1,0 +1,41 @@
+[0.237s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_velocity_smoother -- -j8 -l8
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.762s] [ 20%] Built target gtest_main
+[0.763s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.791s] [ 40%] Built target gtest
+[0.798s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother_core[0m
+[0.853s] [ 60%] Built target velocity_smoother_core
+[0.886s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother_tests[0m
+[0.892s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother[0m
+[0.925s] [ 80%] Built target velocity_smoother
+[0.932s] [100%] Built target velocity_smoother_tests
+[0.947s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/nav2_velocity_smoother -- -j8 -l8
+[1.046s] Invoking command in '/home/lhl/nav2_ws/src/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_velocity_smoother
+[1.060s] -- Install configuration: "Release"
+[1.060s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/lib/libvelocity_smoother_core.so
+[1.061s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/lib/nav2_velocity_smoother/velocity_smoother
+[1.061s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/include/
+[1.061s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/include//nav2_velocity_smoother
+[1.061s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/include//nav2_velocity_smoother/velocity_smoother.hpp
+[1.061s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.sh
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.dsv
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_velocity_smoother
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_velocity_smoother
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.sh
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.dsv
+[1.062s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.sh
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.dsv
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.bash
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.sh
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.zsh
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.dsv
+[1.063s] -- Installing: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.dsv
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/ament_index/resource_index/packages/nav2_velocity_smoother
+[1.063s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/ament_index/resource_index/rclcpp_components/nav2_velocity_smoother
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig.cmake
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig-version.cmake
+[1.064s] -- Up-to-date: /home/lhl/nav2_ws/src/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.xml
+[1.158s] Invoked command in '/home/lhl/nav2_ws/src/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lhl/nav2_ws/src/install/nav2_util:/home/lhl/nav2_ws/src/install/nav2_msgs:/home/lhl/nav2_ws/src/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/lhl/nav2_ws/src/install/nav2_util/lib:/home/lhl/nav2_ws/src/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lhl/nav2_ws/src/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/lhl/nav2_ws/src/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/nav2_velocity_smoother

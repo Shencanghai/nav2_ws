@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000213] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000258] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001564] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001637] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001711] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001748] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001855] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001914] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001931] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001989] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.002034] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002050] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.002074] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002133] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002200] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.002231] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.002248] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002279] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.002311] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.002385] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.002455] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.002479] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.002530] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.002608] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.002628] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.002668] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.002697] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.002969] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003026] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003055] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003588] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.003914] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.003953] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.003986] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.004027] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004057] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.004088] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004124] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004158] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004261] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004298] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004322] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.004349] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.004411] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.012159] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.012488] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '/home/lhl/nav2_ws/src/robot_localization', '-DCMAKE_INSTALL_PREFIX=/home/lhl/nav2_ws/install/robot_localization'], 'cwd': '/home/lhl/nav2_ws/build/robot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'lhl'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lhl'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.78.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1681'), ('SYSTEMD_EXEC_PID', '1868'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '26663'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lhl'), ('JOURNAL_STREAM', '8:36876'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lhl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pirbeste:@/tmp/.ICE-unix/1848,unix/Pirbeste:/tmp/.ICE-unix/1848'), ('INVOCATION_ID', 'a722273f49f7423bbde6081fcd8e0c21'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2RG51'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-36abd5c7aa.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lhl/nav2_ws/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.064082] (robot_localization) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.098847] (-) TimerEvent: {}
+[0.112659] (robot_localization) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.119040] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175020] (robot_localization) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.181587] (robot_localization) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.181826] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.182162] (robot_localization) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.184761] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198930] (-) TimerEvent: {}
+[0.252218] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258974] (robot_localization) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259306] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.259769] (robot_localization) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.260358] (robot_localization) StdoutLine: {'line': b"-- robot_localization: You did not request a specific build type: selecting 'RelWithDebInfo'.\n"}
+[0.261891] (robot_localization) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299021] (-) TimerEvent: {}
+[0.399300] (-) TimerEvent: {}
+[0.407429] (robot_localization) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.489584] (robot_localization) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.491852] (robot_localization) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499401] (-) TimerEvent: {}
+[0.532487] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.536946] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.544629] (robot_localization) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.557058] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.574787] (robot_localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599506] (-) TimerEvent: {}
+[0.640958] (robot_localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.643214] (robot_localization) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.699633] (-) TimerEvent: {}
+[0.732847] (robot_localization) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.756880] (robot_localization) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.799732] (-) TimerEvent: {}
+[0.801663] (robot_localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.813060] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.871875] (robot_localization) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.872069] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.899852] (-) TimerEvent: {}
+[0.935586] (robot_localization) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.936793] (robot_localization) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.999948] (-) TimerEvent: {}
+[1.097543] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[1.100016] (-) TimerEvent: {}
+[1.142477] (robot_localization) StdoutLine: {'line': b'-- Found diagnostic_updater: 3.1.2 (/opt/ros/humble/share/diagnostic_updater/cmake)\n'}
+[1.170939] (robot_localization) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.171127] (robot_localization) StderrLine: {'line': b'  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.171264] (robot_localization) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.171384] (robot_localization) StderrLine: {'line': b'  "geographic_msgs", but CMake did not find one.\n'}
+[1.171486] (robot_localization) StderrLine: {'line': b'\n'}
+[1.171570] (robot_localization) StderrLine: {'line': b'  Could not find a package configuration file provided by "geographic_msgs"\n'}
+[1.171653] (robot_localization) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.171763] (robot_localization) StderrLine: {'line': b'\n'}
+[1.171851] (robot_localization) StderrLine: {'line': b'    geographic_msgsConfig.cmake\n'}
+[1.171939] (robot_localization) StderrLine: {'line': b'    geographic_msgs-config.cmake\n'}
+[1.172034] (robot_localization) StderrLine: {'line': b'\n'}
+[1.172138] (robot_localization) StderrLine: {'line': b'  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or\n'}
+[1.172232] (robot_localization) StderrLine: {'line': b'  set "geographic_msgs_DIR" to a directory containing one of the above files.\n'}
+[1.172351] (robot_localization) StderrLine: {'line': b'  If "geographic_msgs" provides a separate development package or SDK, be\n'}
+[1.172429] (robot_localization) StderrLine: {'line': b'  sure it has been installed.\n'}
+[1.172510] (robot_localization) StderrLine: {'line': b'\n'}
+[1.172605] (robot_localization) StderrLine: {'line': b'\x1b[0m\n'}
+[1.172684] (robot_localization) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.172781] (robot_localization) StdoutLine: {'line': b'See also "/home/lhl/nav2_ws/build/robot_localization/CMakeFiles/CMakeOutput.log".\n'}
+[1.178853] (robot_localization) CommandEnded: {'returncode': 1}
+[1.197699] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 1}
+[1.200135] (-) TimerEvent: {}
+[1.208266] (-) EventReactorShutdown: {}
