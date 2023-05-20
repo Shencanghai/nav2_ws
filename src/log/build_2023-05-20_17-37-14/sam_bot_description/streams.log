@@ -1,0 +1,40 @@
+[0.011s] Invoking command in '/home/lhl/nav2_ws/src/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/sam_bot_description -- -j8 -l8
+[0.032s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.216s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.216s] -- Added test 'lint_cmake' to check CMake code style
+[0.216s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.218s] -- Added test 'xmllint' to check XML markup files
+[0.218s] -- Configuring done
+[0.221s] -- Generating done
+[0.222s] -- Build files have been written to: /home/lhl/nav2_ws/src/build/sam_bot_description
+[0.239s] Invoked command in '/home/lhl/nav2_ws/src/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/src/build/sam_bot_description -- -j8 -l8
+[0.264s] Invoking command in '/home/lhl/nav2_ws/src/build/sam_bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/sam_bot_description
+[0.270s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/src
+[0.270s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/src/hhh.txt
+[0.270s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/src/sam_bot_description.urdf
+[0.270s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/launch
+[0.271s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[0.271s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/rviz
+[0.271s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz
+[0.271s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/config
+[0.271s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[0.271s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/world
+[0.271s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[0.271s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[0.271s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[0.272s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[0.272s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[0.272s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[0.272s] -- Installing: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/package.dsv
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[0.272s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[0.273s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[0.273s] -- Up-to-date: /home/lhl/nav2_ws/src/install/sam_bot_description/share/sam_bot_description/package.xml
+[0.274s] Invoked command in '/home/lhl/nav2_ws/src/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lhl/nav2_ws/src/build/sam_bot_description

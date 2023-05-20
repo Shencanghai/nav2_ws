@@ -48,6 +48,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/lhl/nav2_ws/src/sam_bot_description/launch"
     "/home/lhl/nav2_ws/src/sam_bot_description/rviz"
     "/home/lhl/nav2_ws/src/sam_bot_description/config"
+    "/home/lhl/nav2_ws/src/sam_bot_description/world"
     )
 endif()
 

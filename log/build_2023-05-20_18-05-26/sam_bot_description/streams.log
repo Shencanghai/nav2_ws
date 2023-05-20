@@ -1,0 +1,5 @@
+[0.143s] Invoking command in '/home/lhl/nav2_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/sam_bot_description -- -j8 -l8
+[0.174s] [0mCMake Error: The source directory "/home/lhl/nav2_ws/src/navigation2_tutorials/sam_bot_description" does not exist.
+[0.175s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.176s] gmake: *** [Makefile:226：cmake_check_build_system] 错误 1
+[0.177s] Invoked command in '/home/lhl/nav2_ws/build/sam_bot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lhl/nav2_ws/src/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/lhl/nav2_ws/build/sam_bot_description -- -j8 -l8
